@@ -155,7 +155,8 @@ var setupMiddleware = function ( middlewareName ) {
 
 
 var listen = function( done ) {
-  server.listen( nconf.get('Server:Port'), function() {
+  var port = process.env.PORT || nconf.get('Server:Port');
+  server.listen( port, function() {
     if ( done ) {
       return done();
     }

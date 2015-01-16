@@ -3,7 +3,7 @@
     "Name": "api-example-com"
   },
   "Server": {
-    "Port": 80,
+    "Port": 1337,
     "Name": "api.example.com",
     "DefaultVersion": "1.0.0",
     "Acceptable": [ "application/json" ],
