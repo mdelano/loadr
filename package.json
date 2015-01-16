@@ -1,0 +1,25 @@
+{
+  "name": "node-restify-boilerplate",
+  "version": "1.1.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "make test"
+  },
+  "dependencies": {
+    "acl": "0.4.x",
+    "bunyan": "1.2.x",
+    "lodash": "*",
+    "nconf": "0.6.x",
+    "phantom": "^0.7.2",
+    "q": "^1.1.2",
+    "request": "2.47.x",
+    "restify": "2.8.x"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "supertest": "^0.13.0",
+    "zombie": "^2.5.1"
+  }
+}
